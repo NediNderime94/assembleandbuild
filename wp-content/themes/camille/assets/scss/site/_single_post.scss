@@ -1,0 +1,259 @@
+.single-post-content > .entry-thumbnail,
+.single-post-content > .blog_item--thumbnail,
+.single-post-content > .blog_item > .blog_item--thumbnail {
+  margin-bottom: 25px;
+}
+
+.tags-list{
+  margin-bottom: 20px;
+  display: block;
+  i{
+    padding-right: 5px;
+  }
+}
+
+.single_post_item--title .entry-title {
+  margin-top: 0;
+}
+
+.entry-content{
+  margin-bottom: 20px;
+  line-height: 24px;
+  .wpb_content_element{
+    margin-bottom: 22px;
+  }
+  p{
+    margin-bottom: 22px;
+  }
+  .wpb_wrapper{
+    > ul{
+      padding: 0;
+    }
+  }
+}
+.entry-meta-footer{
+  .tags-list{
+    float: left;
+    margin: 0;
+  }
+}
+
+.author-info{
+  float: left;
+  border: 1px solid #E4E4E4;
+  padding: 30px 30px 20px;
+}
+.author-info__avatar{
+  display: table-cell;
+  vertical-align: top;
+  .author-info__avatar-inner {
+    margin-right: 30px;
+    width: 85px;
+  }
+  img.avatar{
+    width: 100%;
+    @include border-radius(50%);
+  }
+}
+.author-info__description{
+  display: table-cell;
+  position: relative;
+  top: -5px;
+}
+.author-info__bio,
+.author-info__title {
+  display: inline-block;
+}
+.author-info__bio{
+  margin-bottom: 10px;
+}
+.author-info__name{
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.author-info__name,
+.author-info__link{
+  @extend %text-color-secondary;
+}
+
+.author-info__description .social-media-link {
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.la-sharing-single-posts {
+  float: right;
+  position: relative;
+  > span{
+    i{
+      padding-left: 5px;
+    }
+  }
+  > span{
+    display: inline-block;
+  }
+  .social--sharing{
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    visibility: hidden;
+    opacity: 0;
+    white-space: nowrap;
+    a{
+      margin: 0;
+    }
+  }
+  &:hover{
+    &:before{
+      content: "";
+      position: absolute;
+      top: -40px;
+      padding-top: 50px;
+      width: 100%;
+      left: 0;
+    }
+    .social--sharing{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.post-navigation{
+  margin-bottom: 6%;
+  @extend %clearfix;
+  .nav-next,
+  .nav-previous{
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+  a{
+    color: inherit;
+    display: inline-block;
+  }
+  .nav-previous{
+    padding-left: 30px;
+    background: url(assets/images/arrows-stre-left.png) no-repeat left center;
+  }
+  .nav-next{
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    background: url(assets/images/arrows-stre-right.png) no-repeat right center;
+  }
+  .nav-links span {
+    display: block;
+  }
+  .meta-nav{
+    font-size: 12px;
+  }
+  .post-title{
+    @extend %text-color-secondary;
+  }
+}
+
+.page-header-vhide{
+  .single-post-content{
+    &.type-post{
+      > .entry-header,
+      > .entry-meta{
+        display: block;
+      }
+    }
+  }
+}
+
+
+.entry-thumbnail.not-full {
+  float: left;
+  margin: 10px 30px 10px 0;
+}
+
+
+.single-post-detail{
+
+  .title-related{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+
+.la-related-posts{
+  .blog_item--meta{
+    margin-bottom: 15px;
+  }
+}
+
+
+.single-post-content{
+  .entry-content{
+    h1, h2, h3{
+      margin-bottom: 25px;
+    }
+    > .la-blockquote {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .la-breadcrumbs{
+    font-size: 0.9285714286em;
+    margin-bottom: 3em;
+  }
+  .showposts-loop .loop__item__meta{
+    margin-bottom: 20px;
+    .byline{
+      text-transform: capitalize;
+    }
+  }
+
+  .entry-footer{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    border-top: 2px solid #DCDCDC;
+  }
+}
+
+.la-related-posts{
+  .block_heading{
+    .block_heading--title{
+      font-size: inherit;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.row-related-posts{
+  background-color: #F9F9F9;
+  margin-top: 80px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+.single-post{
+  .site-main{
+    padding-bottom: 0;
+  }
+}
+
+#section_page_header + div#main .single-post-content > .la-breadcrumbs,
+#section_page_header + div#main .single-post-content > .entry-header {
+  display: none;
+}
+
+.wpb_single_image.single-big-playicon {
+  margin-bottom: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include translate2d(-50%,-50%);
+}
+
+.single-post-content .format-gallery .slick-slide img {
+  width: 100%;
+}

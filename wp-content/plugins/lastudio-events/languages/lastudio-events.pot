@@ -1,0 +1,591 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-12 12:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/class-le-event-list-widget.php:34
+msgid "Displays the upcoming events in a list."
+msgstr ""
+
+#: inc/class-le-event-list-widget.php:36
+msgid "Event list"
+msgstr ""
+
+#: inc/class-le-event-list-widget.php:99 inc/class-le-events-widget.php:88
+msgid "Title:"
+msgstr ""
+
+#: inc/class-le-event-list-widget.php:103
+msgid "Count:"
+msgstr ""
+
+#: inc/class-le-events-widget.php:34
+msgid "Displays the upcoming events with thumbnail."
+msgstr ""
+
+#: inc/class-le-events-widget.php:36 inc/admin/class-le-admin.php:374
+msgid "Events"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:18 inc/le-register-taxonomy.php:33
+msgid "Artists"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:19
+msgid "Artist"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:20
+msgid "Search Artists"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:21
+msgid "Popular Artists"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:22
+msgid "All Artists"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:23
+msgid "Parent Artist"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:24
+msgid "Parent Artist:"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:25
+msgid "Edit Artist"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:26
+msgid "Update Artist"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:27
+msgid "Add New Artist"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:28
+msgid "New Artist"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:29
+msgid "Separate artists with commas"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:30
+msgid "Add or remove artists"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:31
+msgid "Choose from the most used artists"
+msgstr ""
+
+#: inc/le-register-taxonomy.php:32
+msgid "No artists found"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:109
+msgid ""
+"<strong>LaStudio Events</strong> is the newer version of <strong>LaStudio "
+"Tour Dates</strong> plugin with more features and updates to come! Would you "
+"like to import your posts from LaStudio Tour Dates plugin?"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:124
+#, php-format
+msgid ""
+"<br><br>\n"
+"\t\t\t\t<a href=\"%1$s\" class=\"button button-primary\">Import tour "
+"dates</a>\n"
+"\t\t\t\t&nbsp;\n"
+"\t\t\t\t<a href=\"%2$s\" class=\"button\">Skip</a>"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:166
+msgid "Your posts have been successfully imported."
+msgstr ""
+
+#: inc/admin/class-le-admin.php:177
+msgid "Importation failed :(."
+msgstr ""
+
+#: inc/admin/class-le-admin.php:307
+#, php-format
+msgid ""
+"says : <em>Almost done! you need to <a href=\"%1$s\">create a page</a> for "
+"your galleries or <a href=\"%2$s\">select an existing page</a> in the plugin "
+"settings</em>."
+msgstr ""
+
+#: inc/admin/class-le-admin.php:325
+#, php-format
+msgid ""
+"<br><br>\n"
+"\t\t\t\t\t<a href=\"%1$s\" class=\"button button-primary\">Create a page</a>"
+"\n"
+"\t\t\t\t\t&nbsp;\n"
+"\t\t\t\t\t<a href=\"%2$s\" class=\"button button-primary\">Select an "
+"existing page</a>\n"
+"\t\t\t\t\t&nbsp;\n"
+"\t\t\t\t\t<a href=\"%3$s\" class=\"button\">Skip setup</a>"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:387
+msgid "Your events page has been created succesfully"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:408
+msgid "You are currently editing the page that shows the events."
+msgstr ""
+
+#: inc/admin/class-le-admin.php:455
+msgid "Event Date"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:456
+msgid "Place"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:457 inc/admin/le-metaboxes.php:39
+msgid "Venue"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:458
+msgid "Status"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:475
+msgid "upcoming"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:481
+msgid "past"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:485
+msgid "cancelled"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:489
+msgid "sold out"
+msgstr ""
+
+#: inc/admin/class-le-admin.php:545 inc/admin/class-le-options.php:50
+#: inc/admin/class-le-options.php:50
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:214 inc/admin/class-le-metabox.php:229
+#: inc/admin/class-le-metabox.php:274 inc/admin/class-le-metabox.php:454
+#: inc/admin/class-le-metabox.php:462 inc/admin/class-le-metabox.php:470
+#: inc/admin/class-le-metabox.php:479
+msgid "Clear"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:215 inc/admin/class-le-metabox.php:455
+#: inc/admin/class-le-metabox.php:463 inc/admin/class-le-metabox.php:471
+msgid "Choose a file"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:230 inc/admin/class-le-metabox.php:275
+#: inc/admin/class-le-metabox.php:480
+msgid "Choose an image"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:262
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:270
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:287
+msgid "Background repeat"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:311
+msgid "Background position"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:324
+msgid "cover (resize)"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:325 inc/admin/class-le-metabox.php:410
+msgid "normal"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:326
+msgid "responsive (hard resize)"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:331
+msgid "Background size"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:342
+msgid "Parallax"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:360
+msgid "Font color"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:370
+msgid "Font Family"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:372
+msgid "default"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:383
+msgid "Font weight"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:385
+msgid ""
+"For example: 400 is normal, 700 is bold.The available font weights depend on "
+"the font.<br>Leave empty to use the theme default style"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:391 inc/admin/class-le-metabox.php:409
+msgid "auto"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:392
+msgid "none"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:393
+msgid "uppercase"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:397
+msgid "Font transform"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:403
+msgid "\"auto\" is the default style in the theme options"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:411
+msgid "italic"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:415
+msgid "Font style"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:421
+msgid "\"auto\" is the default style defined in the theme options"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:428
+msgid "Font letter spacing (omit px)"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:430
+msgid "Leave empty to use the style defined in the theme options"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:452
+msgid "mp4 URL"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:460
+msgid "webm URL"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:468
+msgid "ogv URL"
+msgstr ""
+
+#: inc/admin/class-le-metabox.php:476
+msgid "Video Image Fallback"
+msgstr ""
+
+#: inc/admin/class-le-options.php:59
+msgid "Events Page"
+msgstr ""
+
+#: inc/admin/class-le-options.php:60
+msgid "Display past events in list"
+msgstr ""
+
+#: inc/admin/class-le-options.php:61
+msgid "Link to single page in list"
+msgstr ""
+
+#: inc/admin/class-le-options.php:62
+msgid "Ticket text"
+msgstr ""
+
+#: inc/admin/class-le-options.php:63
+msgid "Upcoming events text"
+msgstr ""
+
+#: inc/admin/class-le-options.php:64
+msgid "Past events text"
+msgstr ""
+
+#: inc/admin/class-le-options.php:65
+msgid "No event text"
+msgstr ""
+
+#: inc/admin/class-le-options.php:66
+msgid "Instructions"
+msgstr ""
+
+#: inc/admin/class-le-options.php:102
+msgid "- Disabled -"
+msgstr ""
+
+#: inc/admin/class-le-options.php:115
+msgid "Select a page..."
+msgstr ""
+
+#: inc/admin/class-le-options.php:150 inc/admin/class-le-options.php:226
+msgid "Tickets"
+msgstr ""
+
+#: inc/admin/class-le-options.php:159 inc/admin/class-le-options.php:227
+msgid "Upcoming events"
+msgstr ""
+
+#: inc/admin/class-le-options.php:168 inc/admin/class-le-options.php:228
+msgid "Past events"
+msgstr ""
+
+#: inc/admin/class-le-options.php:177 inc/admin/class-le-options.php:229
+msgid "No upcoming event scheduled"
+msgstr ""
+
+#: inc/admin/class-le-options.php:186
+msgid ""
+"To display your event list, paste the following shortcode in a post or page :"
+msgstr ""
+
+#: inc/admin/class-le-options.php:188
+msgid "Additionally, you can add some attributes."
+msgstr ""
+
+#: inc/admin/class-le-options.php:190
+msgid "The \"past\" attribute: display the past events or not in the list"
+msgstr ""
+
+#: inc/admin/class-le-options.php:191
+msgid "The \"link\" attribute: link your events to the single page or not."
+msgstr ""
+
+#: inc/admin/class-le-options.php:201
+msgid "Events Options"
+msgstr ""
+
+#: inc/admin/class-le-options.php:204
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin/class-le-options.php:210
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:21
+msgid "Event Details"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:26
+msgid "Date"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:29
+msgid "Formatted like \"dd-mm-yyyy\""
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:33
+msgid "End Date"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:45
+msgid "Location"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:48
+msgid ""
+"How you want to display the location name in the list (e.g: \"Bruges, "
+"Belgium\" or \"\tNew Orleans, LA\")"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:52
+msgid "City"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:58
+msgid "Country"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:64
+msgid "Country - short ( e.g : GER for Germany )"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:70
+msgid "State"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:76
+msgid "Time"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:79
+msgid "e.g: 20:30 or 8:30PM"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:83
+msgid "Postal address"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:89
+msgid "Zip"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:96
+msgid "Phone"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:102
+msgid "Contact Email"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:107
+msgid "Contact Website"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:113
+msgid "Google map embed code"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:114
+#, php-format
+msgid ""
+"<a class=\"lastudio-help-img\" href=\"%s\" target=\"_blank\">Where to find "
+"it?</a>"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:120
+msgid "Facebook event page"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:126
+msgid "Buy Ticket link"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:133
+msgid "Price (e.g : $15)"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:139 inc/frontend/class-lastudio-events.php:204
+msgid "Free"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:145
+msgid "Sold Out"
+msgstr ""
+
+#: inc/admin/le-metaboxes.php:151 inc/frontend/class-lastudio-events.php:211
+msgid "Cancelled"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:126
+msgid "No upcoming shows scheduled"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:198
+msgid "Buy Ticket"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:217
+msgid "Sold out"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:351
+msgid "Jan"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:352
+msgid "Feb"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:353
+msgid "Mar"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:354
+msgid "Apr"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:355
+msgid "May"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:356
+msgid "Jun"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:357
+msgid "Jul"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:358
+msgid "Aug"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:359
+msgid "Sep"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:360
+msgid "Oct"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:361
+msgid "Nov"
+msgstr ""
+
+#: inc/frontend/class-lastudio-events.php:362
+msgid "Dec"
+msgstr ""
+
+#. Name of the plugin
+msgid "LaStudio Events"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin to manage your events"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://la-studioweb.com/plugin/lastudio-events"
+msgstr ""
+
+#. Author of the plugin
+msgid "LaStudio"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://la-studioweb.com"
+msgstr ""

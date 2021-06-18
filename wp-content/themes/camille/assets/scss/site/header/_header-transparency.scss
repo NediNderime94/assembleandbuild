@@ -1,0 +1,41 @@
+.enable-header-transparency{
+  .site-header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+    &:not(.is-sticky){
+      .site-header-inner{
+        transition: none;
+      }
+      .site-branding{
+        .logo--normal{
+          img{
+            opacity: 0;
+            visibility: hidden;
+          }
+        }
+        .logo--transparency{
+          img{
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+  #masthead_aside{
+    @include box-shadow(none);
+
+  }
+  #masthead_aside .site-branding .logo--normal{
+    display: none;
+  }
+  #masthead_aside .site-branding .logo--transparency{
+    display: block;
+    img{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

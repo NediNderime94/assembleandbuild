@@ -1,0 +1,37 @@
+.lastudio-events-table {
+    margin-bottom: 44px
+}
+
+.lastudio-events-table .le-table {
+    display: table;
+    width: 100%
+}
+
+.lastudio-events-table .le-table-cell {
+    padding: 15px 5px;
+    display: table-cell;
+    min-height: 50px;
+    vertical-align: middle
+}
+
+.lastudio-events-table .le-list-event.le-cancelled {
+    opacity: .44
+}
+
+.lastudio-events-table .le-date {
+    width: 100px
+}
+
+.lastudio-events-table .le-date .le-day, .lastudio-events-table .le-date .le-month {
+    display: block
+}
+
+.lastudio-events-table .le-facebook {
+    width: 50px;
+    text-align: center
+}
+
+.lastudio-events-table .le-action {
+    width: 200px;
+    text-align: right
+}

@@ -1,0 +1,323 @@
+.cart-flyout{
+  position: fixed;
+  top: 0;
+  width: 420px;
+  padding: 50px;
+  min-height: 100vh;
+  bottom: 0;
+  z-index: 111;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  @include transition(all 250ms ease-in);
+  @include translate2d(200px,0);
+  @include box-shadow(0px 0px 87px 0px rgba(0, 0, 0, 0.09));
+  .cart-flyout--inner{
+    display: block;
+    height: 100%;
+    position: relative;
+  }
+  .btn-close-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    line-height: 30px;
+    i{
+      vertical-align: middle;
+    }
+  }
+  .cart-flyout__content{
+    padding-top: 50px;
+  }
+  .cart_list{
+    margin: 0 -30px 0 0;
+    padding: 0 30px 0 0;
+    max-height: 310px;
+    max-height: calc(100vh - 430px);
+    max-height: -webkit-calc(100vh - 430px);
+    overflow: auto;
+    li.empty{
+      padding: 50px 0;
+    }
+    .quantity{
+      .amount{
+        font-size: inherit;
+        color: inherit;
+      }
+    }
+  }
+  .cart-flyout__heading{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .widget_shopping_cart_content{
+    overflow: hidden;
+    opacity: 1;
+    .total{
+      border: none;
+      text-transform: none;
+      margin-bottom: 35px;
+      .amount {
+        font-size: 18px;
+      }
+    }
+    .button{
+      width: 100%;
+      display: block;
+      margin: 10px 0 0;
+      text-align: center;
+      line-height: 20px;
+      padding: 20px 20px;
+      @include single-transition();
+    }
+  }
+  .cart-flyout__loading {
+    text-align: center;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  }
+  &.cart-flyout--loading{
+    .cart-flyout__loading {
+      height: auto;
+      visibility: visible;
+      opacity: 1;
+    }
+    .widget_shopping_cart_content{
+      opacity: 0;
+      transition: opacity 400ms ease-out;
+    }
+  }
+}
+.open-cart-aside{
+  &.camille-body{
+    overflow: hidden;
+  }
+  .cart-flyout{
+    visibility: visible;
+    opacity: 1;
+    @include translate2d(0,0);
+  }
+  .la-overlay-global {
+    visibility: visible;
+    opacity: 0.7;
+  }
+}
+
+.shop_table{
+  th,td{
+    vertical-align: middle;
+  }
+  &.woocommerce-cart-form__contents{
+    border: none;
+    thead{
+      background-color: #f7f7f7;
+    }
+    th{
+      border: none;
+      padding: 13px 0;
+      font-size: inherit;
+    }
+    td{
+      border-width: 0 0 1px 0;
+      padding: 29px 0;
+      @extend %border-color;
+    }
+    td.actions{
+      padding-top: 20px;
+      border-width: 0;
+      .button{
+        float: right;
+        min-width: 180px;
+        cursor: pointer;
+      }
+    }
+    .product-price,
+    .product-quantity,
+    .product-subtotal{
+      text-align: center;
+    }
+  }
+  td.product-price,
+  td.product-subtotal{
+    font-size: 16px;
+    @extend %text-color-secondary;
+  }
+  .product-name a{
+    @extend %text-color-secondary;
+  }
+  .product-quantity{
+    width: 100px;
+  }
+  .product-remove{
+    width: 30px;
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 100;
+    .remove{
+      font-size: 0;
+      &:before{
+        content: "\f014";
+        font-family: "FontAwesome";
+        font-size: 16px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+  }
+  .product-thumbnail{
+    width: 90px;
+  }
+  dl{
+    margin-bottom: 0;
+    p{
+      display: inline;
+    }
+    dt,dd{
+      float: left;
+    }
+    dt{
+      clear: both;
+      font-weight: normal;
+    }
+  }
+}
+td.actions{
+  .coupon{
+    display: none;
+  }
+}
+.cart-collaterals{
+  padding-top: 30px;
+  .cart_totals{
+    width: 32%;
+    float: right;
+    margin-bottom: 50px;
+    .checkout-button{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .shop_table{
+    background-color: #f7f7f7;
+    border-width: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    @extend %text-color-secondary;
+    td,
+    th{
+      border-width: 0;
+      padding: 5px 10px;
+    }
+    th{
+      vertical-align: top;
+      padding-left: 30px;
+    }
+    .amount{
+      font-size: 14px;
+      font-weight: normal;
+    }
+    .cart-subtotal{
+      td,
+      th{
+        padding-top: 25px;
+      }
+    }
+    .order-total{
+      td,
+      th{
+        padding-bottom: 25px;
+      }
+    }
+  }
+  .shipping{
+    li{
+      margin-bottom: 10px;
+    }
+    label {
+      text-transform: uppercase;
+      padding-left: 10px;
+    }
+  }
+  .la-coupon-form,
+  .la-shipping-form{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+  }
+  .shipping-calculator-form{
+    display: block !important;
+  }
+  .woocommerce-shipping-calculator,
+  .la-coupon{
+    max-width: 370px;
+    padding-top: 10px;
+    .button{
+      border-width: 0 0 2px;
+      border-style: solid;
+      border-color: inherit;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: none;
+      padding: 5px 0;
+      float: right;
+      margin-top: 10px;
+      @extend %text-color-secondary;
+      &:hover{
+        @extend %text-color-primary;
+      }
+    }
+    .input-text:placeholder-shown {
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }
+  h2{
+    font-size: 18px;
+    margin-bottom: 6px;
+    + p{
+      font-size: 12px;
+    }
+  }
+  .form-row{
+    margin-bottom: 10px;
+  }
+}
+.btn-clear-cart{
+  margin-right: 10px;
+}
+
+
+.woocommerce > .return-to-shop,
+.woocommerce > p.cart-empty {
+  text-align: center;
+}
+.woocommerce > p.cart-empty{
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  &:before {
+    content: "\25";
+    font-family: "dl-icon";
+    display: block;
+    font-size: 100px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    @extend %text-color-secondary;
+  }
+}
+.woocommerce > .return-to-shop{
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+.cart-collaterals .cart_totals .la-shipping-form {
+  width: 100%;
+  display: none !important;
+}

@@ -1,0 +1,115 @@
+/* Medium devices (old desktop, less than 1199px) */
+@media (max-width: $screen-md-max ){
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 24px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+  }
+
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 16px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 16px;
+  }
+
+  .font-size-30{
+    font-size: 28px;
+  }
+
+  .letter-spacing-7{
+    letter-spacing: 4px;
+  }
+
+  .backtotop-container{
+    .btn-backtotop{
+      bottom: 80px;
+    }
+    &.show{
+      .btn-backtotop{
+        right: 30px;
+      }
+    }
+  }
+
+  .page-title-v1 .use-custom-text .page-title {
+    &:after {
+      margin: 15px auto;
+    }
+  }
+
+  .la-headings{
+    .heading-with-line{
+      .heading-tag{
+        margin-bottom: 0;
+      }
+    }
+    .heading-tag{
+      margin-bottom: 10px;
+    }
+  }
+
+
+  .la-circle-progress.la-progress-2 .sc-cp-v{
+    font-size: 20px;
+  }
+
+  .header-v2b .site-header .header-left{
+    width: auto;
+  }
+
+  .products-list-mini{
+    .product_item{
+      .product_item--inner{
+        margin-bottom: 40px;
+      }
+      .product_item--thumbnail{
+        width: 80px;
+        margin-right: 20px;
+      }
+      .product_item--title{
+        margin-bottom: 5px;
+      }
+      .product_item--info-action{
+        .button{
+          padding: 5px 15px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+  .admin-bar{
+    #header_aside{
+      top: 32px;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px only) */
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+  .site-header .container{
+    width: 100%;
+  }
+}
